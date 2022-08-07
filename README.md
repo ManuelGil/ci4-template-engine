@@ -1,10 +1,16 @@
 # Codeigniter 4 with Template Engine
 
-[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-template-engine)](./releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-template-engine)](./releases)
+[![GitHub Release](https://img.shields.io/github/v/release/ManuelGil/ci4-template-engine)](https://github.com/ManuelGil/ci4-template-engine/releases/tag/v1.0.0)
+[![GitHub Release Date](https://img.shields.io/github/release-date/ManuelGil/ci4-template-engine)](https://github.com/ManuelGil/ci4-template-engine/releases/tag/v1.0.0)
 [![GitHub license](https://img.shields.io/github/license/ManuelGil/ci4-template-engine)](./LICENSE)
 
 Example of template engine integration in CodeIgniter 4
+
+This repository includes:
+
+-   [twig](https://github.com/ManuelGil/ci4-template-engine/tree/twig)
+-   [mustache](https://github.com/ManuelGil/ci4-template-engine/tree/mustache)
+-   [blade](https://github.com/ManuelGil/ci4-template-engine/tree/blade)
 
 ## Requirements
 

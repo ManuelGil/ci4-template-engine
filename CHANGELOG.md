@@ -13,5 +13,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Initial commit**
 
-[unreleased]: https://github.com/ManuelGil/alternate-admin/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/ManuelGil/alternate-admin/releases/tag/v1.0.0
+[unreleased]: https://github.com/ManuelGil/ci4-template-engine/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/ManuelGil/ci4-template-engine/releases/tag/v1.0.0
