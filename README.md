@@ -91,7 +91,7 @@ $ php spark serve
 
 -   PHP 7.4.16 ([XAMPP](https://www.apachefriends.org/download.html))
 -   COMPOSER 2.1.3 ([COMPOSER](https://getcomposer.org/download/))
--   CodeIgniter 4.2.3 ([COMPOSER](https://www.codeigniter.com/download))
+-   CodeIgniter 4.2.4 ([COMPOSER](https://www.codeigniter.com/download))
 -   Visual Studio Code 1.70.0 ([VSCode](https://code.visualstudio.com/download))
 -   Mustache Template - Snippets & Autocomplete for VSCode 1.1.0 ([Mustache Template - Snippets & Autocomplete](https://marketplace.visualstudio.com/items?itemName=imgildev.vscode-mustache-snippets))
 

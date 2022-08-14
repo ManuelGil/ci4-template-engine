@@ -107,6 +107,21 @@ abstract class BaseController extends Controller
         $this->templateEngine->addFunction(new TwigFunction('set_value', function ($field, $default) {
             return set_value($field, $default);
         }));
+
+        // Create a new function for csrf_token.
+        $this->templateEngine->addFunction(new TwigFunction('csrf_token', function () {
+            return csrf_token();
+        }));
+
+        // Create a new function for csrf_hash.
+        $this->templateEngine->addFunction(new TwigFunction('csrf_hash', function () {
+            return csrf_hash();
+        }));
+
+        // Create a new function for csrf_field.
+        $this->templateEngine->addFunction(new TwigFunction('csrf_field', function () {
+            return csrf_field();
+        }));
     }
 
     /**
