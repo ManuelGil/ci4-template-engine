@@ -60,7 +60,7 @@ abstract class BaseController extends Controller
 
         $loader = new FilesystemLoader(APPPATH . 'Views');
 
-        if ($_SERVER['CI_ENVIRONMENT'] === 'production') {
+        if (ENVIRONMENT === 'production') {
             $this->templateEngine = new Environment($loader, [
                 'debug' => false,
                 'cache' => false,
@@ -122,10 +122,11 @@ abstract class BaseController extends Controller
             // Render the template.
             return $this->templateEngine->render($filename, $params);
         } catch (LoaderError | SyntaxError | RuntimeError | \Throwable $e) {
-            // When a generic error occurred.
-            if ($_SERVER['CI_ENVIRONMENT'] === 'production') {
+            if (ENVIRONMENT === 'production') {
+                // Save error in file log
                 log_message('error', $e->getTraceAsString());
             } else {
+                // Show error in the current page
                 header_remove();
                 http_response_code(500);
                 header('HTTP/1.1 500 Internal Server Error');
