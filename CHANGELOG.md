@@ -12,11 +12,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   Add Twig Template Engine library dependencies.
 -   Add Twig classes and render function to Base Controller.
 -   Add Twig Functions to use in templating.
+-   Add Template Partials to Modularize HTML.
 
 ### Changed
 
 -   Update Home Controller to use render function.
 -   Rename welcome_message.php to welcome_message.twig.
+-   Convert welcome_message.twig to child of layout.twig.
 
 ## [1.0.0] - 2022-08-07
 
