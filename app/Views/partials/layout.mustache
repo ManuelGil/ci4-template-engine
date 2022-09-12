@@ -1,0 +1,43 @@
+{{% BLOCKS }}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>{{$ title }}{{/ title }}</title>
+
+    {{> /partials/head }}
+
+</head>
+
+<body>
+
+    <!-- HEADER: MENU + HEROE SECTION -->
+    <header>
+
+        {{> /partials/header  }}
+
+        {{$ hero }}{{/ hero }}
+
+    </header>
+    <!-- CONTENT -->
+
+    {{$ content }}{{/ content }}
+
+    <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
+
+    {{$ footer }}{{/ footer }}
+
+
+    <!-- SCRIPTS -->
+
+    {{> /partials/scripts }}
+
+    {{$ script }}{{/ script }}
+
+    <!-- -->
+
+</body>
+
+</html>

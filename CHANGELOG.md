@@ -12,11 +12,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   Add Mustache Template Engine library dependencies.
 -   Add Mustache classes and render function to Base Controller.
 -   Add Mustache Filters to use in templating.
+-   Add Template Partials to Modularize HTML.
 
 ### Changed
 
 -   Update Home Controller to use render function.
 -   Rename welcome_message.php to welcome_message.mustache.
+-   Convert welcome_message.mustache to child of layout.mustache.
 
 ## [1.0.0] - 2022-08-07
 
