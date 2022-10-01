@@ -29,9 +29,7 @@
     type="text/javascript"></script>
 
 <script>
-
     let data = JSON.parse("{{ users | json_encode() | e('js') }}");
-    console.log(data);
 
     let obj = {
         headings: Object.keys(data[0]),
